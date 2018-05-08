@@ -1,0 +1,355 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none !important;
+}
+@font-face:{
+	font-family:roboto_regular;
+	src:url(../fonts/Roboto-Regular.ttf);
+}
+@font-face:{
+	font-family:opensans;
+	src:url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face:{
+	font-family:Rochester_regular;
+	src:url(../fonts/Rochester-Regular.ttf);
+}
+h2{
+	line-height:70px;
+	color: #444;
+	font-size: 34px;
+	text-transform: uppercase;
+	text-align:center;
+	font-family:verdana;
+}
+hr {
+	height: 4px;
+	width: 70px;
+	text-align: center;
+	background:#000;
+	margin: 0 auto;
+	margin-bottom:100px;
+	border: 0;
+}
+#bannar{
+	width:100%;
+	background:url(../images/bannar.jpg) no-repeat 0 0/ 100% 100%;
+
+}
+.bannar_overlay{
+	width:100%;
+	background: rgba(250,242,250,0.89);
+	background: -moz-linear-gradient(left, rgba(250,242,250,0.89) 0%, rgba(0,0,0,0.89) 0%, rgba(76,76,76,0.89) 33%, rgba(74,74,74,0.89) 35%, rgba(43,43,43,0.67) 71%, rgba(43,43,43,0.59) 83%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,242,250,0.89)), color-stop(0%, rgba(0,0,0,0.89)), color-stop(33%, rgba(76,76,76,0.89)), color-stop(35%, rgba(74,74,74,0.89)), color-stop(71%, rgba(43,43,43,0.67)), color-stop(83%, rgba(43,43,43,0.59)));
+	background: -webkit-linear-gradient(left, rgba(250,242,250,0.89) 0%, rgba(0,0,0,0.89) 0%, rgba(76,76,76,0.89) 33%, rgba(74,74,74,0.89) 35%, rgba(43,43,43,0.67) 71%, rgba(43,43,43,0.59) 83%);
+	background: -o-linear-gradient(left, rgba(250,242,250,0.89) 0%, rgba(0,0,0,0.89) 0%, rgba(76,76,76,0.89) 33%, rgba(74,74,74,0.89) 35%, rgba(43,43,43,0.67) 71%, rgba(43,43,43,0.59) 83%);
+	background: -ms-linear-gradient(left, rgba(250,242,250,0.89) 0%, rgba(0,0,0,0.89) 0%, rgba(76,76,76,0.89) 33%, rgba(74,74,74,0.89) 35%, rgba(43,43,43,0.67) 71%, rgba(43,43,43,0.59) 83%);
+	background: linear-gradient(to right, rgba(250,242,250,0.89) 0%, rgba(0,0,0,0.89) 0%, rgba(76,76,76,0.89) 33%, rgba(74,74,74,0.89) 35%, rgba(43,43,43,0.67) 71%, rgba(43,43,43,0.59) 83%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf2fa', endColorstr='#2b2b2b', GradientType=1 );
+	padding-top:325px;
+	padding-bottom:325px;
+}
+.bannar_overlay h1{
+	font-family:verdana;
+	font-size:60px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.bannar_overlay p{
+	margin-top:25px;
+	font-family:verdana;
+	font-size:18px;
+	color:#fff;
+	letter-spacing:2px;
+}/*=============== bannar end ==============*/
+#navbar{
+	z-index:9999 !important;
+}
+.my_navbar{
+	margin-bottom: 0;
+	background:#222;
+	border-radius:0px !important;
+	border:0px;
+	padding: 10px 0;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+.nav_item li{
+	padding-left:12px;
+	padding-right:12px;
+}
+.nav_item li a{
+	font-family:verdana;
+	color:#fff !important;
+	font-size:14px;
+	text-transform:uppercase;
+}
+.nav_item li a:hover{
+	color:#3674d8 !important;
+}
+.my_nav_2{
+	border-top:none !important;
+}
+/*================================ navbar end ======================*/
+#about{
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px;
+	background:#f6f6f6;
+}
+#about .about_text {
+	margin-left: 10px;
+}
+#about img {
+	float: right;
+	margin-bottom:20px;
+}
+.about_text p {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-family:verdana;
+	color:#222;
+	font-size:15px;
+}
+.about_text a{
+	padding:15px 20px 15px 20px;
+	border:2px solid #000;
+	font-family:verdana;
+	font-size:15px;
+	text-transform:uppercase;
+	color:#000;
+	transition:all linear .5s;
+}
+.about_text a:hover{
+	background:#222;
+	color:#fff;
+	transition:all linear .5s;
+}
+/*================================ about end ======================*/
+#skills{
+	width:100%;
+	background: rgba(94,157,219,1);
+	background: -moz-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(3%, rgba(94,157,219,1)), color-stop(29%, rgba(94,157,219,0.8)), color-stop(63%, rgba(69,133,204,0.53)), color-stop(100%, rgba(41,107,188,0.53)));
+	background: -webkit-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -o-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -ms-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: linear-gradient(to right, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e9ddb', endColorstr='#296bbc', GradientType=1 );
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.chart {
+	position: relative;
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	margin-bottom: 26px;
+	text-align: center;
+}
+.chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.percent {
+	display: inline-block;
+	font-size: 21px;
+	color: #fff;
+	line-height: 140px;
+	z-index: 2;
+}
+.percent:after {
+	content: '%';
+	margin-left: 0.1em;
+	font-size: .8em;
+}
+.skill_chart h4{
+	color:#fff;
+	font-size: 20px;
+}/*============================== skill end =========================*/
+#stats{
+	width:100%;
+	background: rgb(94,157,219,1);
+	background: -moz-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(3%, rgba(94,157,219,1)), color-stop(29%, rgba(94,157,219,0.8)), color-stop(63%, rgba(69,133,204,0.53)), color-stop(100%, rgba(41,107,188,0.53)));
+	background: -webkit-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -o-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -ms-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: linear-gradient(to right, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e9ddb', endColorstr='#296bbc', GradientType=1 );
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.achievement_box h4 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 5px;
+	text-transform: uppercase;
+}
+.achievement_box span.count {
+	font-size: 52px;
+	font-weight: 600;
+	display: block;
+	color: rgba(255,255,255,0.8);
+	padding: 0;
+	margin: 0;
+}/*=====================================achivement end=====================*/
+#testimonials{
+	width:100%;
+	background:#f6f6f6;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.testimo blockquote {
+	position: relative;
+	margin-top: 20px;
+	border: 0;
+	text-align: center;
+	background: #fff;
+	padding: 30px 20px;
+}
+.testimo i {
+	font-size: 24px;
+	color: #eee;
+	margin-bottom: 14px;
+}
+.testimo .clients-name {
+	display: inline-block;
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+.testimo p{
+	font-family:verdana;
+	font-size:15px;
+}/*==================================== Testimonials end ====================================*/
+#contact{
+	width:100%;
+	background:url(../images/contact-bg.jpg) no-repeat 0 0/ 100% 100%;
+}
+.contact_overlay{
+	width:100%;
+	background: rgba(94,157,219,1);
+	background: -moz-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(3%, rgba(94,157,219,1)), color-stop(29%, rgba(94,157,219,0.8)), color-stop(63%, rgba(69,133,204,0.53)), color-stop(100%, rgba(41,107,188,0.53)));
+	background: -webkit-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -o-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: -ms-linear-gradient(left, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	background: linear-gradient(to right, rgba(94,157,219,1) 3%, rgba(94,157,219,0.8) 29%, rgba(69,133,204,0.53) 63%, rgba(41,107,188,0.53) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e9ddb', endColorstr='#296bbc', GradientType=1 );
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.contact_title h2{
+	color:#fff;
+}
+#contact h2 {
+	color: #fff;
+}
+#contact hr {
+	background:#000;
+}
+#contact h3 {
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+}
+#contact form {
+	padding: 30px 0;
+}
+#contact i.fa {
+	color: #121d1f;
+	margin-bottom: 10px;
+}
+#contact .text-danger {
+	color: #E87E04;
+	text-align: left;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #222;
+	background-color: rgba(255,255,255,0.6);
+	background-image: none;
+	border: 0;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+color: #2c3e50;
+}
+.form-control:-moz-placeholder {
+color: #2c3e50;
+}
+.form-control::-moz-placeholder {
+color: #2c3e50;
+}
+.form-control:-ms-input-placeholder {
+color: #2c3e50;
+}
+#contact .btn {
+	margin-top: 20px;
+}
+#contact .social {
+	margin-top: 80px;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact .social i.fa {
+	font-size: 30px;
+	padding: 4px 5px;
+	color: #fff;
+	transition: all 0.5s;
+}
+#contact .social i.fa:hover {
+	color: #121d1f;
+}
+.my_button{
+	background:rgba(255, 255, 255, 0.6);
+	padding:15px 15px 15px 15px;
+	
+}/*=====================conatct end======================*/
+#footer{
+	width:100%;
+	background:#222;
+}
+.footer_text{
+	font-family:verdana;
+	font-size:13px;
+	color:#777;
+	padding: 30px 0 25px 0;
+}

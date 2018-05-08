@@ -1,0 +1,24 @@
+@media(max-width: 767px) {
+	
+	.bannar_overlay h1{
+		font-size:35px !important;
+	}
+	.bannar_overlay p{
+		font-size:11px !important;
+	}
+	.bannar_overlay{
+		padding-top:110px !important;
+		padding-bottom:110px !important;
+	}
+	h2{
+		font-size:24px !important;
+	}
+	hr{
+		height: 2px !important;
+		width: 50px !important;
+	}
+	.contact_overlay{
+		padding-top:25px !important;
+		padding-bottom:25px !important;
+	}
+}
